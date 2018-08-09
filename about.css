@@ -1,0 +1,414 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Myriad Pro", Regular;
+}
+/*header */
+.header{
+	width: 100%;
+	height: 360px;
+}
+.container{
+	width: 1170px;
+}
+.head_info{
+	height: 50px;
+	max-width: 100%;
+	background-color: #152639;
+}
+.language{
+
+}
+.language select{
+	border: none;
+    background-color: #152639;
+    color: #fff;
+	font-size: 13px;
+	margin-top: 18px;
+}
+.head_info .info{
+	color: #fff;
+	width: 75%;
+	margin-top: 18px;
+	    float: left;
+}
+.info ul{
+	list-style-type: none;
+}
+.info ul li{
+	float: left;
+	padding-left: 32px;
+}
+.consult{
+	width: 25%;
+    float: left;
+    height: 100%;
+    text-align: right;
+    position: relative;
+}
+.consult img{
+	position: relative;
+}
+.consult p{
+	position: absolute;
+	top: 18px;
+	width: 100%;
+	text-align: center;
+}
+.nav{
+	width: 100%;
+	height: 115px;
+}
+.nav .logo img{
+	padding-top: 25px;
+}
+.menu{
+	float: left;
+	width: 85%;
+}
+.menu ul{
+	list-style-type: none;
+	    padding-top: 45px;
+}
+.menu ul li{
+	float: left;
+	padding-right: 25px;
+	font-size: 14px;
+}
+.menu ul li a{
+	color: #003333;
+}
+ul li a:hover{
+	text-decoration: none;
+}
+.menu ul li select{
+	border: none;
+}
+.product{
+	width: 15%;
+	float: left;
+}
+.product ul{
+	list-style-type: none;
+	padding-top: 45px;
+}
+.product ul li{
+	float: left;
+	width: 50%;
+}
+.product ul li sup{
+	left: -5px;
+    background-color: #14f1e4;
+    padding: 2px;
+    border-radius: 100%;
+}
+.product button{
+	background-color: #003333;
+	border: none;
+	color: #fff;
+	padding: 2px 5px;
+	border-radius: 5px;
+}
+.about{
+	height: 195px;
+	width: 100%;
+	position: relative;
+	 text-align: center;
+}
+.about img{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.about .text{
+	position: absolute;
+	top:45px;
+	width: 100%;
+}
+.text img{
+	width: 10%;
+	height: 5px;
+}
+.text hr{
+	width: 25%;
+	margin-left: 35%;
+	margin-top: 0;
+	border-top: 2px solid #14f1e4;
+}
+.text a{
+	color: #003333;
+}
+/*content*/
+.content{
+	width: 100%;
+	height: 1445px;
+
+}
+.overview{
+	height: 590px;
+	width: 100%;
+	
+}
+.infomation{
+	padding-top: 100px;
+}
+.infomation hr{
+	border-top: 2px solid #14f1e4;
+    width: 12%;
+}
+.infomation p{
+	font-size: 14px;
+	width: 86%;
+}
+.note{
+	margin-top: 65px;
+	width: 95%;
+	background-color: #e8e8e8;
+	height: 95px;
+	border-left: 2px solid #14f1e4;
+}
+.note p{
+	padding-top: 30px;
+	padding-left: 35px;
+	width: 90%;
+	font-size: 16px;
+}
+.mission{
+	width: 100%;
+	height: 425px;
+	padding-top: 50px;
+}
+.mission hr{
+	border-top: 2px solid #14f1e4;
+    width: 10%;
+}
+.mission ul{
+	list-style-type: none;
+	padding-top: 25px;
+}
+.mission ul li{
+	padding-bottom: 12px;
+	font-size: 14px;
+	color: #003333;
+}
+.mission ul li i{
+	padding-right: 15px;
+}
+.certification hr{
+	border-top: 2px solid #14f1e4;
+    width: 8%;
+}
+.certification {
+	padding-top: 40px;
+	height: 430px;
+	width: 100%;
+}
+.slider{
+	height: 100%;
+	padding-top: 100px;
+}
+.category{
+	width: 100%;
+	height: 305px;
+	background-color: #f8f8f8
+}
+.category ul{
+	list-style-type: none;
+}
+.category ul li{
+	padding:14px 30px;
+	border-bottom: 1px solid #fff;
+	font-size: 16px
+}
+.category ul li a{
+	color: #003333;
+}
+#active{
+	background-color: #14f1e4;
+}
+.contact{
+	width: 100%;
+	height: 307px;
+	padding-top: 60px;
+}
+.contact ul{
+	list-style-type: none;
+}
+.contact hr{
+	border-top: 2px solid #14f1e4;
+    width: 25%;
+}
+.contact ul li{
+	color: #666666;
+	font-size: 14px;
+	padding-bottom: 12px;
+}
+.contact ul li i{
+	padding-right: 8px;
+}
+.download{
+	width: 100%;
+	height: 242px;
+	position: relative;
+}
+.download img{ 
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.download .text{
+	position: absolute;
+	top: 45px;
+	left: 30px;
+	font-size: 24px;
+	color: #666666;
+	width: 50%
+}
+.download .text span{
+	color: #14f1e4;
+	}
+.download .text button{
+	    border: none;
+    background-color: #152639;
+    font-size: 14px;
+    color: #00ffcc;
+    padding: 8px 15px;
+    width: 100%;
+}
+/*footer*/
+.footer{
+	height: 632px;
+	width: 100%;
+}
+
+.footer .top{
+	width: 100%;
+	height: 102px;
+	background-image: url(image/bg_ftop.png);
+}
+.footer .top .col-sm-9{
+	padding-top: 35px;
+}
+.footer .top .row b{
+	color: #fff;
+	font-size: 24px;
+}
+.top .col-sm-3{
+	padding-left: 30px;
+	padding-top: 25px;
+}
+.top button {
+	background-color: #fff;
+	color: #003333;
+	font-size: 16px;
+	    border: none;
+    padding: 15px 25px;
+
+}
+.footer_info{
+	width: 100%;
+	height: 440px;
+	background-color: #152639;
+}
+.footer_info .logo{
+	padding-top: 60px;
+}
+.footer_info .logo p{
+	padding-top: 30px;
+	color: #b0b3b7;
+	font-style: 14px;
+}
+
+.footer_info .logo hr{
+	border-top: 0.5px solid #2b3a4b;
+}
+.footer_info .logo ul{
+	padding-top: 15px;
+	list-style-type: none;
+}
+.footer_info .logo ul li{
+	float: left;
+	padding-right: 15px;
+}
+.footer_info .logo ul li a{
+	color: #959da6;
+	font-size: 24px;
+}
+.main{
+	padding-top: 100px;
+}
+ .title{
+	font-size: 20px;
+	color: #fff;
+}
+.main ul{
+	list-style-type: none;
+	margin-top: 28px;
+}
+.main ul li{
+	color: #b0b3b7;
+	padding-bottom: 15px;
+}
+.main ul li i{
+	padding-right: 3px;
+}
+.main  hr{
+	border-top: 0.5px solid #2b3a4b;
+}
+.link {
+	padding-top: 100px;
+	padding-left: 30px
+}
+.link ul{
+	list-style-type: none;
+	margin-top: 28px;
+}
+.link ul li{
+	color: #b0b3b7;
+	padding-bottom: 15px;
+}
+.subscribe{
+	padding-top: 100px;
+}
+.subscribe ul {
+	list-style-type: none;
+	color: #b0b3b7;
+
+}
+.subscribe input{
+	width: 100%;
+	margin-top: 28px;
+	height: 45px;
+	border:none;
+}
+.subscribe button{
+	margin-top: 25px;
+    background-color: #152639;
+    border: 2px solid #14f1e4;
+    padding: 10px 30px;
+    width: 100%;
+    color: #14f1e4;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.copyright{
+	width: 100%;
+	height: 90px;
+	background-color: #0e1a28;
+	color: #b0b3b7;
+   padding-top: 40px;
+
+}
+.back{
+	text-align: right;
+}
+.back a{
+	color: #14f1e4;
+}
+.copyright i{
+	
+	background-color: #222831;
+    padding: 7px 8px;
+    font-weight: normal;
+    margin-left: 20px;
+}
