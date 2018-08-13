@@ -1,0 +1,270 @@
+@media only screen and (min-width: 1024px) {
+	body{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1024px){
+	body{
+		width: 100%;
+	}
+	.info ul li{
+		padding-left: 15px;
+		font-size: 12px;
+	}
+	.info ul li i{
+		font-size: 12px;
+	}
+	.menu ul li{
+		
+		padding-right: 20px;
+	}
+	.tag ul li {
+		padding: 10px;
+	}
+
+}
+@media screen and (max-width: 768px){
+	body{
+		width: 100%;
+
+	}
+	.language select{
+		font-size: 10px;
+	}
+	.info ul li{
+		font-size: 9px;
+		padding-left: 5px;
+	}
+	.consult p {
+		font-size: 11px;
+	}
+		.menu ul li{
+		font-size: 13px;
+		padding-right: 12px;
+	}
+	.product ul li img{
+		width: 20px;
+		height: 16px;
+	}
+	.product ul li button{
+		width: 16px;
+		height: 16px;
+		font-size: 10px;
+		padding:1px;
+	}
+	.footer .top .row b {
+		font-size: 18px;
+	}
+	.top button{
+		font-size: 13px;
+	}
+	.footer_info .logo p{
+		font-size: 12px;
+	}
+	.footer_info .title {
+		font-size: 18px;
+	}
+	.main ul li, .link ul li{
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 680px){
+	body{
+		width: 100%;
+	}
+	.product ul li img{
+		width: 16px;
+		height: 13px;
+	}	
+	.product ul li sup{
+		font-size: 8px;
+		padding: 1px;
+	}
+	.social ul li {
+		width: 9%;
+	}
+	.nav .logo img {
+	    padding-top: 42px;
+		width: 85%;
+	}
+
+}
+@media screen and (max-width: 480px){
+	body{
+		width: 100%;
+	}
+	.info{
+		display: none;
+	}
+	.consult{
+		float: right;
+	}
+	.nav .logo img {
+	    padding-top: 42px;
+		width: 100%;
+	}
+	.nav .col-xs-3{
+		width: 35%
+	}
+	.nav .col-xs-8{
+		width: 55.77777777%
+	}
+	.menu{
+		width: 65%;
+	}
+	.product {
+	    width: 35%;
+	}
+	
+	#menu {
+		padding-top: 48px;
+		display: none;
+		height: auto;
+	}
+	#icon{
+		display: block;
+		float: right;
+		padding: 45px 15px;
+		position: relative;
+	}
+	#icon:after{
+		content:"";
+        
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+	}
+	.about .text b{
+		font-size: 30px;
+	}
+	.date{
+		height: 50px;
+		padding: 2px;
+	}
+	.date b{
+		font-size: 20px;
+	}
+	.date p{
+		font-size: 8px;
+		
+	}
+	#tip{
+		font-size: 10px;
+	}
+	.content_post p{
+		font-size: 12px;
+	}
+	.note_post span{
+		font-size: 14px;
+	}
+	.social ul li{
+		width: 15%;
+	}
+	.current_post1 img, .current_post2 img {
+	    max-width: 70px;
+	    height: 68px;
+	}
+	.title_post{
+		padding-left: 10px;
+	}
+	.title_post b {
+	    font-size: 9px;
+	}
+	.title_post a {
+	    font-size: 8px;
+	}
+	.time{
+		width: 70%;
+	}
+	.time p, .time button, .comment{
+		font-size: 10px;
+	}
+	.name{
+		width: 30%;
+	}
+	#name{
+		font-size: 10px;
+	}
+	.footer_info .col-xs-3{
+		width: 33%;
+	}
+	.footer .top .row b {
+		font-size: 10px;
+	}
+	.top button{
+		font-size: 9px;
+		padding: 10px 3px;
+		margin-top: 5px;
+	}
+	.footer_info .logo p{
+		font-size: 10px;
+	}
+	.footer_info .logo ul li a {
+	    font-size: 12px;
+	}
+	.footer_info .title {
+		font-size: 12px;
+	}
+	.main ul li{
+		font-size: 10px;
+	}
+	.main p{
+		font-size: 10px;
+	}
+	.subscribe input{
+		padding-left: 10px;
+	}
+	.link{
+		display: none;
+	}
+	.subscribe button{
+		padding: 10px;
+		font-size: 10px;
+	}
+	.copyright{
+		font-size: 10px;
+		padding-top: 30px;
+	}
+
+}
+@media screen and (max-width: 320px){
+	body{
+		width: 100%;
+	}
+	.info{
+		display: none;
+	}
+	.head_info .col-xs-1{
+		width: 30%;
+	}
+	.head_info .col-xs-10{
+		width: 60%;
+	}
+	.consult{
+		width: 70%;
+	}
+	.nav .col-xs-3{
+		width: 35%
+	}
+	.nav .logo img{
+		width: 100%;
+	}
+	.nav .col-xs-8{
+		width: 55.77777777%
+	}
+	.menu{
+		width: 50%;
+	}
+	.product {
+	    width: 50%;
+	}
+	.about .text b{
+		font-size: 20px;
+	}
+
+}
+
+
